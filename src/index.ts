@@ -1,3 +1,16 @@
-import { server } from "./server/Server";
+import { server } from './server/Server';
+import fs from 'fs';
 
-server.listen(3333, () => console.log('app rodando'));
+const PORT = 3333;
+
+server.listen(PORT, () => {
+	console.log(`Servidor 🪁 na 🚪:${PORT}`);
+});
+
+fs.readFile('banner.txt', 'utf8', (err, data) => {
+	if (err) {
+		console.error(err);
+		return;
+	}
+	console.log(data);
+});
