@@ -5,7 +5,5 @@
   # TECH
 # NODE TS
 
-
-
-# Curso do Lucas Souza Dev () => {https://www.youtube.com/@LucasSouzaDev }
+# Curso do Lucas Souza Dev () => { https://www.youtube.com/@LucasSouzaDev }
 
